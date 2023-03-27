@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+
+*,
+*::before,
+*::after {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: "Outfit", sans-serif;
+    color: #FFFFFF;
+    background-color: hsl(217, 54%, 11%);
+}
+
+p {
+    font-size: 15px;
+}
+
+.card-bg {
+    height: 30rem;
+    width: 18rem;
+    background-color: hsl(216, 50%, 16%);
+    border-radius: 1rem;
+}
+
+.nft {
+    position: relative;
+    left: 1rem;
+    top: 1rem;
+    width: 16rem;
+    border-radius: 1rem;
+}
+
+.icon-view {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    margin: -24px 0 0 -24px;
+}
+
+.overlay {
+    position: absolute;
+    left: 1rem;
+    top: 1rem;
+    height: 16rem;
+    width: 16rem;
+    border-radius: 1rem;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: hsl(178, 100%, 50%);
+
+}
+
+.overlay:hover {
+    opacity: .5;
+    background: hsl(178, 100%, 50%);
+}
+
+.nft-name {
+    font-size: 1.25rem;
+    font-weight: 700;
+    bottom: 10.5rem;
+    left: 1rem;
+}
+
+.description {
+    bottom: 7rem;
+    left: 1rem;
+}
+
+.icon-eth {
+    width: .6rem;
+    bottom: 5rem;
+    left: 1rem;
+}
+
+.nft-value {
+    color: hsl(178, 100%, 50%);
+    font-size: .85rem;
+    font-weight: 700;
+    left: 2rem;
+    bottom: 5rem;
+}
+
+.icon-clock {
+    width: 1rem;
+    bottom: 5rem;
+    right: 5rem;
+}
+
+.daysleft {
+    font-size: .85rem;
+    right: 1rem;
+    bottom: 5rem;
+}
+
+.line {
+    border-top: 1px solid white;
+}
+
+.avatar {
+    width: 1.5rem;
+    border-radius: 50%;
+    border: 1px solid white;
+    bottom: 1.5rem;
+    left: 1rem;
+}
+
+.name {
+    bottom: 1.8rem;
+    left: 3.5rem;
+}
